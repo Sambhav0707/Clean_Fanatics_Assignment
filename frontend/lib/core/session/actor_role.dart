@@ -1,0 +1,1 @@
+enum ActorRole { CUSTOMER, PROVIDER, ADMIN }
