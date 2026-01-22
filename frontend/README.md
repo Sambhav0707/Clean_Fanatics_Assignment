@@ -67,9 +67,55 @@ feature/
 4. **Scalability** — Easy to add new features following the same pattern
 5. **Reusability** — Domain logic can be reused across different platforms
 
+## Screenshots
+
+### Application Flow
+
+The app follows a role-based flow where users first select their role, then access role-specific features:
+
+1. **Role Selection** → 2. **Login/Entry** → 3. **Role-Specific Home Screen**
+
+#### 1. Role Selection Screen
+![Role Selection Screen](assets/roll selector screen.png)
+
+Users start by selecting their role: Customer, Provider, or Admin.
+
+---
+
+#### 2. Login/Entry Screens
+
+**Customer Login:**
+![Customer Login View](assets/customer login view.png)
+
+**Admin Login:**
+![Admin Login View](assets/admin login view screen.png)
+
+---
+
+#### 3. Role-Specific Home Screens
+
+**Customer Home Screen:**
+![Customer Home Screen](assets/customer home screen view.png)
+
+**Customer Booking View:**
+![Customer Booking View](assets/customer booking view screen.png)
+
+**Provider Home Screen (View 1):**
+![Provider Home View](assets/provider home view.png)
+
+**Provider Home Screen (View 2):**
+![Provider Home View 2](assets/provider home view 2.png)
+
+**Admin Panel:**
+![Admin Panel Screen](assets/admin panel screen.png)
+
+---
+
 ## Key Features
 
 ### 1. Role Selection & Mock Authentication
+
+The app starts with a role selection screen where users choose their role:
 
 ![Role Selection Screen](assets/roll selector screen.png)
 
@@ -99,10 +145,13 @@ The app uses a **mock authentication system** instead of real OAuth/JWT for the 
 
 ### 2. Customer Features
 
+**Customer Login Screen:**
 ![Customer Login View](assets/customer login view.png)
 
+**Customer Home Screen:**
 ![Customer Home Screen](assets/customer home screen view.png)
 
+**Customer Booking View:**
 ![Customer Booking View](assets/customer booking view screen.png)
 
 #### Create Booking
@@ -145,9 +194,11 @@ The app uses a **mock authentication system** instead of real OAuth/JWT for the 
 
 ### 3. Provider Features
 
-![Provider Home View](assets/provider%20home%20view.png)
+**Provider Home Screen - View 1:**
+![Provider Home View](assets/provider home view.png)
 
-![Provider Home View 2](assets/provider%20home%20view%202.png)
+**Provider Home Screen - View 2:**
+![Provider Home View 2](assets/provider home view 2.png)
 
 #### View Assigned Bookings
 - Shows only **actionable bookings** (`ASSIGNED` or `IN_PROGRESS`)
@@ -187,8 +238,10 @@ Providers only see actionable work to:
 
 ### 4. Admin Features
 
+**Admin Login Screen:**
 ![Admin Login View](assets/admin login view screen.png)
 
+**Admin Operations Panel:**
 ![Admin Panel Screen](assets/admin panel screen.png)
 
 #### Search Booking by ID
