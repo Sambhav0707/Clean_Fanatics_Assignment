@@ -76,7 +76,7 @@ The app follows a role-based flow where users first select their role, then acce
 1. **Role Selection** → 2. **Login/Entry** → 3. **Role-Specific Home Screen**
 
 #### 1. Role Selection Screen
-![Role Selection Screen](assets/roll selector screen.png)
+![Role Selection Screen](./assets/roll%20selector%20screen.png)
 
 Users start by selecting their role: Customer, Provider, or Admin.
 
@@ -85,29 +85,29 @@ Users start by selecting their role: Customer, Provider, or Admin.
 #### 2. Login/Entry Screens
 
 **Customer Login:**
-![Customer Login View](assets/customer login view.png)
+![Customer Login View](./assets/customer%20login%20view.png)
 
 **Admin Login:**
-![Admin Login View](assets/admin login view screen.png)
+![Admin Login View](./assets/admin%20login%20view%20screen.png)
 
 ---
 
 #### 3. Role-Specific Home Screens
 
 **Customer Home Screen:**
-![Customer Home Screen](assets/customer home screen view.png)
+![Customer Home Screen](./assets/customer%20home%20screen%20view.png)
 
 **Customer Booking View:**
-![Customer Booking View](assets/customer booking view screen.png)
+![Customer Booking View](./assets/customer%20booking%20view%20screen.png)
 
 **Provider Home Screen (View 1):**
-![Provider Home View](assets/provider home view.png)
+![Provider Home View](./assets/provider%20home%20view.png)
 
 **Provider Home Screen (View 2):**
-![Provider Home View 2](assets/provider home view 2.png)
+![Provider Home View 2](./assets/provider%20home%20view%202.png)
 
 **Admin Panel:**
-![Admin Panel Screen](assets/admin panel screen.png)
+![Admin Panel Screen](./assets/admin%20panel%20screen.png)
 
 ---
 
@@ -117,7 +117,7 @@ Users start by selecting their role: Customer, Provider, or Admin.
 
 The app starts with a role selection screen where users choose their role:
 
-![Role Selection Screen](assets/roll selector screen.png)
+![Role Selection Screen](./assets/roll%20selector%20screen.png)
 
 **Why Mock Login?**
 
@@ -146,13 +146,13 @@ The app uses a **mock authentication system** instead of real OAuth/JWT for the 
 ### 2. Customer Features
 
 **Customer Login Screen:**
-![Customer Login View](assets/customer login view.png)
+![Customer Login View](./assets/customer%20login%20view.png)
 
 **Customer Home Screen:**
-![Customer Home Screen](assets/customer home screen view.png)
+![Customer Home Screen](./assets/customer%20home%20screen%20view.png)
 
 **Customer Booking View:**
-![Customer Booking View](assets/customer booking view screen.png)
+![Customer Booking View](./assets/customer%20booking%20view%20screen.png)
 
 #### Create Booking
 - Enter customer name
@@ -195,10 +195,10 @@ The app uses a **mock authentication system** instead of real OAuth/JWT for the 
 ### 3. Provider Features
 
 **Provider Home Screen - View 1:**
-![Provider Home View](assets/provider home view.png)
+![Provider Home View](./assets/provider%20home%20view.png)
 
 **Provider Home Screen - View 2:**
-![Provider Home View 2](assets/provider home view 2.png)
+![Provider Home View 2](./assets/provider%20home%20view%202.png)
 
 #### View Assigned Bookings
 - Shows only **actionable bookings** (`ASSIGNED` or `IN_PROGRESS`)
@@ -239,10 +239,10 @@ Providers only see actionable work to:
 ### 4. Admin Features
 
 **Admin Login Screen:**
-![Admin Login View](assets/admin login view screen.png)
+![Admin Login View](./assets/admin%20login%20view%20screen.png)
 
 **Admin Operations Panel:**
-![Admin Panel Screen](assets/admin panel screen.png)
+![Admin Panel Screen](./assets/admin%20panel%20screen.png)
 
 #### Search Booking by ID
 - Enter booking ID to load booking details
@@ -656,7 +656,7 @@ frontend/
 │   │
 │   └── main.dart                      # App entry point
 │
-├── assets/                            # Images and screenshots
+├── ./assets/                            # Images and screenshots
 │   ├── admin login view screen.png
 │   ├── admin panel screen.png
 │   ├── customer booking view screen.png
