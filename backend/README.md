@@ -634,11 +634,3 @@ This ensures:
 - **Scales with additional roles** — Easy to add new actors
 - **Easy to reason about under failure** — Clear state machine, event log
 
-## Final Note
-
-This backend intentionally favors **correctness and observability** over convenience.
-Frontend clients are treated as untrusted — all invariants are enforced here.
-
----
-
-**For questions or issues, refer to the code comments marked with `### CHANGE THIS ####` for areas that may need customization.**

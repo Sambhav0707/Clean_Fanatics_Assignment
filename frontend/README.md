@@ -787,5 +787,3 @@ When adding new features:
 This project is part of a booking lifecycle management system assignment.
 
 ---
-
-**For questions or issues, refer to code comments marked with `### CHANGE THIS ####` for areas that may need customization.**

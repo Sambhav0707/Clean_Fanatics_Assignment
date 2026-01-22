@@ -484,4 +484,4 @@ This project is part of a booking lifecycle management system assignment.
 - [Backend Documentation](backend/README.md)
 - [Frontend Documentation](frontend/README.md)
 
-**Questions?** Refer to code comments marked with `### CHANGE THIS ####` for areas that may need customization.
+
